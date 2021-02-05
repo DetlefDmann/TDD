@@ -1,10 +1,6 @@
 const findNeedle = function(words, word) {
     // Schrijf hier de functie...
-        words.reduce((value, index) => {
-           if (value === word) {
-               return index;
-           }
-       })
+        words.indexOf(word);
   };
   
   module.exports = findNeedle;
